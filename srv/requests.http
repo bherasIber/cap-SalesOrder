@@ -1,0 +1,29 @@
+### Get Orders
+GET http://localhost:4004/manage-orders/Orders
+
+### Create Order
+POST http://localhost:4004/manage-orders/Orders HTTP/1.1
+Content-Type: application/json
+
+{            
+"Email": "customer10@logaligroup.com",
+"FirstName": "Armando",
+"LastName": "Franco",
+"Country": "Perú",
+"CreatedOn": "2022-01-13",
+"OrderStatus": 1,
+"DeliveryDate": "1992-01-01T00:00:00Z",
+"ImageUrl": "/orders/webapp/assets/customer-8.png"
+}
+
+### Update Order
+PUT http://localhost:4004/manage-orders/Orders('client 1') HTTP/1.1
+Content-Type: application/json
+
+{
+   "OrderStatus": 1
+}
+
+###Delete Order
+DELETE http://localhost:4004/manage-orders/Orders('client 1')
+

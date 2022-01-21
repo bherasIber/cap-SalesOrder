@@ -1,0 +1,9 @@
+Email,FirstName,LastName,Country,CreatedOn,OrderStatus,DeliveryDate,ImageUrl
+customer1@logaligroup.com,Armando,Franco,Perú,13/01/2022,1,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-1.png
+customer2@logaligroup.com,Carlos,Garcia,Colombia,09/06/2023,2,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-2.png
+customer3@logaligroup.com,Juan,Lopez,España,27/11/2024,1,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-3.png
+customer4@logaligroup.com,Alfredo,Mora,Uruguay,24/09/2025,3,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-4.png
+customer5@logaligroup.com,Lucia,Pozos,Argentina,13/01/2022,1,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-5.png
+customer6@logaligroup.com,Marina,Esteves,Guatemala,09/06/2023,2,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-6.png
+customer7@logaligroup.com,Ana,Solar,USA,27/11/2024,1,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-7.png
+customer8@logaligroup.com,Leonardo,Correa,Chile,24/09/2025,3,1992-01-01T00:00:00Z,/orders/webapp/assets/customer-8.png
