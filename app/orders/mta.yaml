@@ -1,9 +1,9 @@
 _schema-version: "3.1"
-ID: product
-description: Products Report List
+ID: orders
+description: Orders Report List
 version: 0.0.1
 modules:
-- name: product-srv
+- name: orders
   type: nodejs
   path: gen/srv   
   provides:
@@ -14,11 +14,11 @@ modules:
     buildpack: nodejs_buildpack
   build-parameters:
     builder: npm
-- name: product-app-content
+- name: orders-app-content
   type: com.sap.application.content
   path: .
   requires:
-  - name: product-repo-host
+  - name: orders-repo-host
     parameters:
       content-target: true
   build-parameters:
@@ -39,13 +39,13 @@ modules:
     - npm run build:cf
     supported-platforms: []
 resources:
-- name: product-repo-host
+- name: orders-repo-host
   type: org.cloudfoundry.managed-service
   parameters:
     service: html5-apps-repo
-    service-name: product-html5-srv
+    service-name: ordres-html5-srv
     service-plan: app-host
-- name: product-destination-service
+- name: orders-destination-service
   type: org.cloudfoundry.managed-service
   parameters:
     config:

@@ -30,7 +30,8 @@
     "sqlite3": "^5.1.6"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-orders_new": "cds watch --open orders_new/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -84,6 +85,6 @@
     }
   },
   "sapux": [
-    "app/salesorders"
+    "app/orders"
   ]
 }
