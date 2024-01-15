@@ -5,7 +5,7 @@ version: 0.0.1
 modules:
 - name: orders
   type: nodejs
-  path: gen/srv   
+  path: ../../srv   
   provides:
   - name: srv-api
     properties:
