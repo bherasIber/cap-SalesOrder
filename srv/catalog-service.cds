@@ -2,7 +2,10 @@ using com.logali.sales as logali from '../db/schema';
 
 define service CatalogService {
 
-    entity Order as
+    entity Order @(
+        Capabilities.Insertable: true,
+        Capabilities.Updatable: true 
+    ) as
         select from logali.Orders {
             Email       @mandatory,
             FirstName,

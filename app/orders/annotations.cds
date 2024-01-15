@@ -1,5 +1,16 @@
 using CatalogService from '../../srv/catalog-service';
 
+@odata.draft.enabled
+annotate CatalogService.Order with @(
+    Capabilities.Insertable: true,
+    Capabilities.Updatable : true,
+    UI.CreateHidden        : false,
+    UI.UpdateHidden        : false,
+    // SemanticKey
+    Common.SemanticKey     : [Email]
+);
+
+
 annotate CatalogService.Order with @UI : {
     
     HeaderInfo          : {
